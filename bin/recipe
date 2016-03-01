@@ -1,1 +1,11 @@
+# check if you need to require something here
 
+#!/usr/bin/env ruby
+
+# start to programming from the user's standpoint
+# this will be what they'll type, making it the executable
+require_relative '../lib/recipe'
+
+Recipe::CLI.new.call # calling the #call method of the CLI class
+
+#puts "What ya doing?"
