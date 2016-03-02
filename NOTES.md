@@ -9,9 +9,9 @@ How to Build a CLI Gem
 7. Discover objects.
 8. Program
 
-A command line interface for healthy recipes ideas from allrecipes.com.
+A command line interface for healthy recipes ideas from http://www.vintagerecipes.net/recipes/miscellaneous_recipes/.
 
-User types joes-recipe
+User types recipe
 
 Show a list of recipes
 
@@ -19,11 +19,10 @@ Recipe's name - Description
 Recipe's name - Description
 Which recipe do you want to learn more about?
 
-1
+1 #=> will display the recipe's name, description and url
 
 What is a recipe?
 
 A recipe has a name
-A recipe has a ingredient(s)
-A recipe has a direction(s)
+A recipe has a description
 A recipe has a URL

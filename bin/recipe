@@ -1,5 +1,3 @@
-# check if you need to require something here
-
 #!/usr/bin/env ruby
 
 # start to programming from the user's standpoint
@@ -7,5 +5,3 @@
 require_relative '../lib/recipe'
 
 Recipe::CLI.new.call # calling the #call method of the CLI class
-
-#puts "What ya doing?"

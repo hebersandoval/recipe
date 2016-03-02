@@ -1,11 +1,12 @@
-# check if you need to require something here
-
 class Recipe::MyRecipe
   attr_accessor :name, :description, :url
 
   @@all = []
 
   def initialize
+    @name = name
+    @description = description
+    @url = url
     @@all << self
   end
 
@@ -17,6 +18,8 @@ class Recipe::MyRecipe
     @@all.clear
   end
 
-  # may need to move the scraping logic here instead of make it a seperate
+  def self.save
+    @@all << self
+  end
 
 end
